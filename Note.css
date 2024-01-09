@@ -13,7 +13,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    background-color: #333;
     color: #fff;
     padding-top: 4%;
     padding-left: 10%;
@@ -46,8 +46,8 @@ button {
     font-weight: 700;
     color: #fff;
     border-radius: 5px;
-    transition: all ease 0.1s;
-    box-shadow: 0px 5px 0px 0px #a29bfe;
+    transition: 0.1s;
+    box-shadow: 0px 7px 0px 0px #a29bfe;
   }
   
   button:active {
@@ -69,10 +69,10 @@ button {
 }
 
 .input-box img{
-    width: 25px;
+    width: 35px;
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    bottom: 8px;
+    right: 8px;
     cursor: pointer;
 }
 
@@ -87,11 +87,11 @@ button {
      .btn{
         background-color: rgb(6, 96, 199);
         position: fixed;
-        bottom: 0;
-        right: 45%;
+        bottom: 3%;
+        right: 38.5%;
         font-size: 0px;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border-radius: 25%;
         z-index: 100;
      }
@@ -100,8 +100,8 @@ button {
         position: absolute;
         top: 25%;
         left: 30%;
-        width: 45px;
-        size: 40px;
+        width: 90px;
+        
     }
     
     }  
